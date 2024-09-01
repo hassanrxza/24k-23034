@@ -1,0 +1,89 @@
+# Pseuducode and Algorithms
+
+## Objective 2
+
+
+### **Task 2: Add three numbers without using the plus operator.**
+
+
+START
+
+INPUT  n1
+INPUT  n2
+INPUT  n3
+
+SET sum TO 0
+
+WHILE n1 > 0 DO
+    sum = sum + 1
+    n1 = n1 – 1
+ENDWHILE
+
+
+WHILE n2 > 0 DO
+    sum = sum + 1
+    n2 = n2 – 1
+ENDWHILE
+
+WHILE n3 > 0 DO
+    sum = sum + 1
+    n3 = n3 – 1
+ENDWHILE
+
+
+OUTPUT  “The sum is: %d”, sum
+
+END
+
+
+### **Task 3: Make a simple calculator that does ‘+’ and ‘-’ operations.**
+
+START 
+
+INPUT number1 
+INPUT operator  
+INPUT number2 
+
+SET result to 0 
+
+
+IF operator == '+'  THEN 
+	SET result to number1 + number2 
+ELSE IF operator == '-'  THEN 
+	SET result to number1 - number2 
+ELSE 
+	PRINT "Invalid operator" 
+END IF 
+
+PRINT "The result is:", result 
+
+END
+
+
+## Objective 3
+
+### **Task 1: Determine if N is a divisor of n and identify its even or odd.**
+
+    1. Ask the user to input a number for N.
+    2. Ask the user to input a number for n.
+    3. Determine if dividing n by N leaves a remainder.
+    4. If there is no remainder, confirm that N divides n.
+    5. If remainder of N is 0, then N is even
+    6. Else classify it as odd.
+    7. Inform the user whether N is a divisor of n.
+    8. Inform the user whether N is even or odd.
+    9. Conclude the process.
+
+### **Task 3: Implement an algorithm for making a simple calculator with all the operators (+,-,*,/,%)**
+
+    1. Input first number
+    2. Input the operator (+, -, *, /, %, //)
+    3. Input the second number
+    4. if operator is ‘+’, sum the numbers and return result.
+    5. if operator is ‘-’, subtract the numbers and return result.
+    6. if operator is ‘*’, multiply the numbers and return result.
+    7. if operator is ‘/’, divide the numbers and return result.
+    8. if operator is ‘%’, return the remainder of division.
+    9. if operator is ‘//’, return the whole integer of the division.
+    10. Display the result
+    11. End the process.
